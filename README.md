@@ -9,3 +9,10 @@ The Facial Emotion Music Player is an innovative music recommendation system tha
 - **Real-Time Emotion Detection**: Utilizes Mediapipe's facial and hand landmarks to capture and analyze facial expressions in real-time.
 - **Streamlit Deployment**: The model is deployed on Streamlit, offering an intuitive and interactive user interface.
 - **Seamless YouTube Integration**: Once the emotion is detected and preferences are set, the player opens a corresponding playlist or song directly on YouTube.
+
+  ## How It Works
+
+1. **Input**: The user provides their preferred language, favorite singer, and displays their current emotion through facial expressions.
+2. **Emotion Detection**: The model, trained on a dataset collected using Mediapipe's facial and hand landmarks, identifies the user's emotion.
+3. **Music Recommendation**: Based on the detected emotion, the model suggests songs that align with the user's mood, opening the selection on YouTube.
+
